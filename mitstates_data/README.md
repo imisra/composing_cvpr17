@@ -6,4 +6,9 @@ The following files are included
 - split_meta_data.pklz: contains the splits used for training and testing
 - split_labels_train.pklz: training labels
 - split_labels_test.pklz: testing labels
-- im_utils.py: python code to read the pklz files. `import im_utils; data_dict  = im_utils.load(filename)`
+
+To read the files please use the utils provided
+- im_utils.py: python code to read the pklz files. 
+```
+import im_utils; data_dict  = im_utils.load(filename)
+```
